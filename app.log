@@ -1,0 +1,219 @@
+2025-01-14 11:10:19,765 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 11:10:19,765 INFO: [33mPress CTRL+C to quit[0m
+2025-01-14 11:10:19,766 INFO:  * Restarting with stat
+2025-01-14 11:10:20,088 WARNING:  * Debugger is active!
+2025-01-14 11:10:20,093 INFO:  * Debugger PIN: 300-524-915
+2025-01-14 11:10:28,861 INFO: Rendering index page
+2025-01-14 11:10:28,869 INFO: 10.0.2.2 - - [14/Jan/2025 11:10:28] "GET / HTTP/1.1" 200 -
+2025-01-14 11:13:02,996 INFO: Rendering course catalog with 2 courses
+2025-01-14 11:13:02,998 INFO: 10.0.2.2 - - [14/Jan/2025 11:13:02] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:13:04,510 INFO: 10.0.2.2 - - [14/Jan/2025 11:13:04] "GET /add HTTP/1.1" 200 -
+2025-01-14 11:13:26,122 INFO: Added new course: wiug
+2025-01-14 11:13:26,123 INFO: 10.0.2.2 - - [14/Jan/2025 11:13:26] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 11:13:26,127 INFO: Rendering course catalog with 3 courses
+2025-01-14 11:13:26,128 INFO: 10.0.2.2 - - [14/Jan/2025 11:13:26] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:13:28,011 INFO: Rendering course catalog with 3 courses
+2025-01-14 11:13:28,011 INFO: 10.0.2.2 - - [14/Jan/2025 11:13:28] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:13:29,973 INFO: Removed course with code: wieuwg
+2025-01-14 11:13:29,973 INFO: 10.0.2.2 - - [14/Jan/2025 11:13:29] "[32mPOST /remove/wieuwg HTTP/1.1[0m" 302 -
+2025-01-14 11:13:29,977 INFO: Rendering course catalog with 2 courses
+2025-01-14 11:13:29,977 INFO: 10.0.2.2 - - [14/Jan/2025 11:13:29] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:13:32,197 INFO: Rendering course catalog with 2 courses
+2025-01-14 11:13:32,198 INFO: 10.0.2.2 - - [14/Jan/2025 11:13:32] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:14:23,109 INFO: 10.0.2.2 - - [14/Jan/2025 11:14:23] "GET /add HTTP/1.1" 200 -
+2025-01-14 11:15:17,138 INFO: Added new course: wij
+2025-01-14 11:15:17,138 INFO: 10.0.2.2 - - [14/Jan/2025 11:15:17] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 11:15:17,142 INFO: Rendering course catalog with 3 courses
+2025-01-14 11:15:17,143 INFO: 10.0.2.2 - - [14/Jan/2025 11:15:17] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:15:19,202 INFO: 10.0.2.2 - - [14/Jan/2025 11:15:19] "GET /add HTTP/1.1" 200 -
+2025-01-14 11:15:30,973 INFO: Added new course: oowbgijqe
+2025-01-14 11:15:30,974 INFO: 10.0.2.2 - - [14/Jan/2025 11:15:30] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 11:15:30,977 INFO: Rendering course catalog with 4 courses
+2025-01-14 11:15:30,978 INFO: 10.0.2.2 - - [14/Jan/2025 11:15:30] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:15:32,529 INFO: 10.0.2.2 - - [14/Jan/2025 11:15:32] "GET /add HTTP/1.1" 200 -
+2025-01-14 11:15:38,424 INFO: Added new course: wrgjqw
+2025-01-14 11:15:38,424 INFO: 10.0.2.2 - - [14/Jan/2025 11:15:38] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 11:15:38,427 INFO: Rendering course catalog with 5 courses
+2025-01-14 11:15:38,428 INFO: 10.0.2.2 - - [14/Jan/2025 11:15:38] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:16:11,339 INFO: Removed course with code: ojgbwj
+2025-01-14 11:16:11,339 INFO: 10.0.2.2 - - [14/Jan/2025 11:16:11] "[32mPOST /remove/ojgbwj HTTP/1.1[0m" 302 -
+2025-01-14 11:16:11,343 INFO: Rendering course catalog with 4 courses
+2025-01-14 11:16:11,344 INFO: 10.0.2.2 - - [14/Jan/2025 11:16:11] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:16:12,200 INFO: Removed course with code: sjgwd
+2025-01-14 11:16:12,200 INFO: 10.0.2.2 - - [14/Jan/2025 11:16:12] "[32mPOST /remove/sjgwd HTTP/1.1[0m" 302 -
+2025-01-14 11:16:12,204 INFO: Rendering course catalog with 3 courses
+2025-01-14 11:16:12,205 INFO: 10.0.2.2 - - [14/Jan/2025 11:16:12] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:16:13,075 INFO: Removed course with code: iqijqbif
+2025-01-14 11:16:13,076 INFO: 10.0.2.2 - - [14/Jan/2025 11:16:13] "[32mPOST /remove/iqijqbif HTTP/1.1[0m" 302 -
+2025-01-14 11:16:13,079 INFO: Rendering course catalog with 2 courses
+2025-01-14 11:16:13,079 INFO: 10.0.2.2 - - [14/Jan/2025 11:16:13] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:18:15,028 INFO: 10.0.2.2 - - [14/Jan/2025 11:18:15] "GET /add HTTP/1.1" 200 -
+2025-01-14 11:19:08,204 INFO: Rendering course catalog with 2 courses
+2025-01-14 11:19:08,204 INFO: 10.0.2.2 - - [14/Jan/2025 11:19:08] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:25:12,254 INFO:  * Detected change in '/home/hetpathak/CS203_Lab_01/app.py', reloading
+2025-01-14 11:25:12,284 INFO:  * Restarting with stat
+2025-01-14 11:54:15,050 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 11:54:15,050 INFO [33mPress CTRL+C to quit[0m
+2025-01-14 11:54:15,051 INFO  * Restarting with stat
+2025-01-14 11:54:15,325 WARNING  * Debugger is active!
+2025-01-14 11:54:15,327 INFO  * Debugger PIN: 300-524-915
+2025-01-14 11:54:27,031 INFO Rendering course catalog with 2 courses
+2025-01-14 11:54:27,039 INFO 10.0.2.2 - - [14/Jan/2025 11:54:27] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 11:54:28,710 INFO 10.0.2.2 - - [14/Jan/2025 11:54:28] "GET /add HTTP/1.1" 200 -
+2025-01-14 11:54:39,208 INFO Added new course: afjd
+2025-01-14 11:54:39,208 INFO 10.0.2.2 - - [14/Jan/2025 11:54:39] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 11:54:39,213 INFO Rendering course catalog with 3 courses
+2025-01-14 11:54:39,214 INFO 10.0.2.2 - - [14/Jan/2025 11:54:39] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:25:23,901 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 12:25:23,901 INFO [33mPress CTRL+C to quit[0m
+2025-01-14 12:25:23,902 INFO  * Restarting with stat
+2025-01-14 12:25:24,200 WARNING  * Debugger is active!
+2025-01-14 12:25:24,206 INFO  * Debugger PIN: 300-524-915
+2025-01-14 12:25:34,468 INFO Removed course with code: w
+2025-01-14 12:25:34,468 INFO 10.0.2.2 - - [14/Jan/2025 12:25:34] "[32mPOST /remove/w HTTP/1.1[0m" 302 -
+2025-01-14 12:25:34,475 INFO Rendering course catalog with 2 courses
+2025-01-14 12:25:34,485 INFO 10.0.2.2 - - [14/Jan/2025 12:25:34] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:25:37,165 INFO Rendering course catalog with 2 courses
+2025-01-14 12:25:37,165 INFO 10.0.2.2 - - [14/Jan/2025 12:25:37] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:26:06,068 INFO 10.0.2.2 - - [14/Jan/2025 12:26:06] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:26:11,442 INFO Rendering course catalog with 2 courses
+2025-01-14 12:26:11,442 INFO 10.0.2.2 - - [14/Jan/2025 12:26:11] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:30:36,969 INFO  * Detected change in '/home/hetpathak/CS203_Lab_01/app.py', reloading
+2025-01-14 12:30:37,003 INFO  * Restarting with stat
+2025-01-14 12:30:37,344 WARNING:  * Debugger is active!
+2025-01-14 12:30:37,347 INFO:  * Debugger PIN: 300-524-915
+2025-01-14 12:30:49,989 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 12:30:49,990 INFO: [33mPress CTRL+C to quit[0m
+2025-01-14 12:30:49,990 INFO:  * Restarting with stat
+2025-01-14 12:30:50,288 WARNING:  * Debugger is active!
+2025-01-14 12:30:50,295 INFO:  * Debugger PIN: 300-524-915
+2025-01-14 12:31:02,877 INFO: Rendering course catalog with 2 courses
+2025-01-14 12:31:02,884 INFO: 10.0.2.2 - - [14/Jan/2025 12:31:02] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:31:04,430 INFO: 10.0.2.2 - - [14/Jan/2025 12:31:04] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:31:55,354 INFO: Added new course: TOC
+2025-01-14 12:31:55,355 INFO: 10.0.2.2 - - [14/Jan/2025 12:31:55] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 12:31:55,360 INFO: Rendering course catalog with 3 courses
+2025-01-14 12:31:55,361 INFO: 10.0.2.2 - - [14/Jan/2025 12:31:55] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:31:57,020 INFO: 10.0.2.2 - - [14/Jan/2025 12:31:57] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:38:30,575 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 12:38:30,576 INFO: [33mPress CTRL+C to quit[0m
+2025-01-14 12:38:30,576 INFO:  * Restarting with stat
+2025-01-14 12:38:30,890 WARNING:  * Debugger is active!
+2025-01-14 12:38:30,893 INFO:  * Debugger PIN: 300-524-915
+2025-01-14 12:38:38,518 INFO: Rendering course catalog with 3 courses
+2025-01-14 12:38:38,530 INFO: 10.0.2.2 - - [14/Jan/2025 12:38:38] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:38:40,387 INFO: Rendering add course page
+2025-01-14 12:38:40,388 INFO: 10.0.2.2 - - [14/Jan/2025 12:38:40] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:38:51,271 ERROR: Missing required fields: Instructor
+2025-01-14 12:38:51,293 INFO: 10.0.2.2 - - [14/Jan/2025 12:38:51] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2025-01-14 12:38:51,311 INFO: 10.0.2.2 - - [14/Jan/2025 12:38:51] "GET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-14 12:38:51,312 INFO: 10.0.2.2 - - [14/Jan/2025 12:38:51] "GET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-14 12:38:51,334 INFO: 10.0.2.2 - - [14/Jan/2025 12:38:51] "GET /add?__debugger__=yes&cmd=resource&f=console.png&s=KhZ94CBnRrHgZLRykpTB HTTP/1.1" 200 -
+2025-01-14 12:38:51,344 INFO: 10.0.2.2 - - [14/Jan/2025 12:38:51] "GET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-14 12:39:07,414 ERROR: Missing required fields: Instructor
+2025-01-14 12:39:07,422 INFO: 10.0.2.2 - - [14/Jan/2025 12:39:07] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2025-01-14 12:39:07,435 INFO: 10.0.2.2 - - [14/Jan/2025 12:39:07] "[36mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-14 12:39:07,437 INFO: 10.0.2.2 - - [14/Jan/2025 12:39:07] "[36mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-14 12:39:07,446 INFO: 10.0.2.2 - - [14/Jan/2025 12:39:07] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png&s=KhZ94CBnRrHgZLRykpTB HTTP/1.1[0m" 304 -
+2025-01-14 12:39:07,456 INFO: 10.0.2.2 - - [14/Jan/2025 12:39:07] "[36mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-14 12:42:39,872 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 12:42:39,872 INFO: [33mPress CTRL+C to quit[0m
+2025-01-14 12:42:39,873 INFO:  * Restarting with stat
+2025-01-14 12:42:40,170 WARNING:  * Debugger is active!
+2025-01-14 12:42:40,178 INFO:  * Debugger PIN: 300-524-915
+2025-01-14 12:42:54,594 INFO: Rendering index page
+2025-01-14 12:42:54,605 INFO: 10.0.2.2 - - [14/Jan/2025 12:42:54] "GET / HTTP/1.1" 200 -
+2025-01-14 12:42:56,685 INFO: Rendering course catalog with 3 courses
+2025-01-14 12:42:56,689 INFO: 10.0.2.2 - - [14/Jan/2025 12:42:56] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:42:58,639 INFO: Rendering add course page
+2025-01-14 12:42:58,644 INFO: 10.0.2.2 - - [14/Jan/2025 12:42:58] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:43:04,261 ERROR: Missing required fields: Instructor
+2025-01-14 12:43:04,262 INFO: 10.0.2.2 - - [14/Jan/2025 12:43:04] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 12:43:04,266 INFO: Rendering add course page
+2025-01-14 12:43:04,266 INFO: 10.0.2.2 - - [14/Jan/2025 12:43:04] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:43:15,319 INFO: Added new course: ksjfvjw
+2025-01-14 12:43:15,320 INFO: 10.0.2.2 - - [14/Jan/2025 12:43:15] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 12:43:15,324 INFO: Rendering course catalog with 4 courses
+2025-01-14 12:43:15,325 INFO: 10.0.2.2 - - [14/Jan/2025 12:43:15] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:43:21,125 INFO: Removed course with code: kwjf
+2025-01-14 12:43:21,127 INFO: 10.0.2.2 - - [14/Jan/2025 12:43:21] "[32mPOST /remove/kwjf HTTP/1.1[0m" 302 -
+2025-01-14 12:43:21,131 INFO: Rendering course catalog with 3 courses
+2025-01-14 12:43:21,132 INFO: 10.0.2.2 - - [14/Jan/2025 12:43:21] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:46:45,414 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 12:46:45,414 INFO: [33mPress CTRL+C to quit[0m
+2025-01-14 12:46:45,415 INFO:  * Restarting with stat
+2025-01-14 12:46:45,570 WARNING:  * Debugger is active!
+2025-01-14 12:46:45,572 INFO:  * Debugger PIN: 300-524-915
+2025-01-14 12:46:49,887 INFO: Rendering add course page
+2025-01-14 12:46:49,891 INFO: 10.0.2.2 - - [14/Jan/2025 12:46:49] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:46:55,471 ERROR: Missing required fields: Instructor
+2025-01-14 12:46:55,471 INFO: 10.0.2.2 - - [14/Jan/2025 12:46:55] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 12:46:55,475 INFO: Rendering add course page
+2025-01-14 12:46:55,476 INFO: 10.0.2.2 - - [14/Jan/2025 12:46:55] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:47:09,703 INFO: Added new course: wdjb
+2025-01-14 12:47:09,704 INFO: 10.0.2.2 - - [14/Jan/2025 12:47:09] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 12:47:09,708 INFO: Rendering course catalog with 4 courses
+2025-01-14 12:47:09,715 INFO: 10.0.2.2 - - [14/Jan/2025 12:47:09] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:47:11,506 INFO: Removed course with code: qjfj
+2025-01-14 12:47:11,507 INFO: 10.0.2.2 - - [14/Jan/2025 12:47:11] "[32mPOST /remove/qjfj HTTP/1.1[0m" 302 -
+2025-01-14 12:47:11,511 INFO: Rendering course catalog with 3 courses
+2025-01-14 12:47:11,513 INFO: 10.0.2.2 - - [14/Jan/2025 12:47:11] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:48:00,566 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 12:48:00,567 INFO: [33mPress CTRL+C to quit[0m
+2025-01-14 12:48:00,567 INFO:  * Restarting with stat
+2025-01-14 12:48:00,871 WARNING:  * Debugger is active!
+2025-01-14 12:48:00,875 INFO:  * Debugger PIN: 300-524-915
+2025-01-14 12:48:25,780 INFO: Rendering index page
+2025-01-14 12:48:25,792 INFO: 10.0.2.2 - - [14/Jan/2025 12:48:25] "GET / HTTP/1.1" 200 -
+2025-01-14 12:48:34,240 INFO: Rendering course catalog with 3 courses
+2025-01-14 12:48:34,243 INFO: 10.0.2.2 - - [14/Jan/2025 12:48:34] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:48:47,140 INFO: Rendering add course page
+2025-01-14 12:48:47,144 INFO: 10.0.2.2 - - [14/Jan/2025 12:48:47] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:49:12,601 ERROR: Missing required fields: Instructor
+2025-01-14 12:49:12,602 INFO: 10.0.2.2 - - [14/Jan/2025 12:49:12] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 12:49:12,607 INFO: Rendering add course page
+2025-01-14 12:49:12,608 INFO: 10.0.2.2 - - [14/Jan/2025 12:49:12] "GET /add HTTP/1.1" 200 -
+2025-01-14 12:50:41,365 INFO: Added new course: AI
+2025-01-14 12:50:41,366 INFO: 10.0.2.2 - - [14/Jan/2025 12:50:41] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-01-14 12:50:41,866 INFO: Rendering course catalog with 4 courses
+2025-01-14 12:50:41,867 INFO: 10.0.2.2 - - [14/Jan/2025 12:50:41] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:50:51,262 INFO: Displaying details for course: TOC
+2025-01-14 12:50:51,264 INFO: 10.0.2.2 - - [14/Jan/2025 12:50:51] "GET /course/CS%20201 HTTP/1.1" 200 -
+2025-01-14 12:51:03,102 INFO: Rendering course catalog with 4 courses
+2025-01-14 12:51:03,102 INFO: 10.0.2.2 - - [14/Jan/2025 12:51:03] "GET /catalog HTTP/1.1" 200 -
+2025-01-14 12:52:55,403 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-01-14 12:52:55,404 INFO: [33mPress CTRL+C to quit[0m
+2025-01-14 12:52:55,404 INFO:  * Restarting with stat
+2025-01-14 12:52:55,726 WARNING:  * Debugger is active!
+2025-01-14 12:52:55,728 INFO:  * Debugger PIN: 300-524-915
+2025-01-14 12:53:08,972 INFO: Removed course with code: CS 201
+2025-01-14 12:53:08,976 INFO: 10.0.2.2 - - [14/Jan/2025 12:53:08] "[32mPOST /remove/CS%20201 HTTP/1.1[0m" 302 -
+2025-01-14 12:53:09,219 INFO: Rendering course catalog with 3 courses
+2025-01-14 12:53:09,225 INFO: 10.0.2.2 - - [14/Jan/2025 12:53:09] "GET /catalog HTTP/1.1" 200 -

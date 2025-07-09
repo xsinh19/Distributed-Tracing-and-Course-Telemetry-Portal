@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Course</title>
+</head>
+<body>
+    <h1>Add New Course</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul>
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+	
+
+    <form method="POST">
+        <label for="name">Course Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="code">Course Code:</label><br>
+        <input type="text" id="code" name="code"><br>
+
+        <label for="instructor">Instructor:</label><br>
+        <input type="text" id="instructor" name="instructor"><br>
+
+        <label for="semester">Semester:</label><br>
+        <input type="text" id="semester" name="semester"><br>
+
+        <label for="schedule">Schedule:</label><br>
+        <input type="text" id="schedule" name="schedule"><br>
+
+        <label for="classroom">Classroom:</label><br>
+        <input type="text" id="classroom" name="classroom"><br>
+
+        <label for="prerequisites">Prerequisites:</label><br>
+        <input type="text" id="prerequisites" name="prerequisites"><br>
+
+        <label for="grading">Grading:</label><br>
+        <input type="text" id="grading" name="grading"><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description"></textarea><br>
+
+        <button type="submit">Add Course</button>
+    </form>
+    <a href="{{ url_for('course_catalog') }}">Back to Catalog</a>
+</body>
+</html>
+
